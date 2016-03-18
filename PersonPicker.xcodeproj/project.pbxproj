@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		B4DEA5C31C9C3B940060AB49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEA5C21C9C3B940060AB49 /* AppDelegate.swift */; };
-		B4DEA5C51C9C3B940060AB49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEA5C41C9C3B940060AB49 /* ViewController.swift */; };
 		B4DEA5C81C9C3B940060AB49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DEA5C61C9C3B940060AB49 /* Main.storyboard */; };
 		B4DEA5CB1C9C3B940060AB49 /* PersonPicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B4DEA5C91C9C3B940060AB49 /* PersonPicker.xcdatamodeld */; };
 		B4DEA5CD1C9C3B940060AB49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4DEA5CC1C9C3B940060AB49 /* Assets.xcassets */; };
 		B4DEA5D01C9C3B940060AB49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4DEA5CE1C9C3B940060AB49 /* LaunchScreen.storyboard */; };
+		B4DEA5D81C9C3BFE0060AB49 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEA5D71C9C3BFE0060AB49 /* Person.swift */; };
+		B4DEA5DA1C9C3CE20060AB49 /* PersonDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEA5D91C9C3CE20060AB49 /* PersonDetailViewController.swift */; };
+		B4DEA5DC1C9C3DE10060AB49 /* PersonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DEA5DB1C9C3DE10060AB49 /* PersonsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B4DEA5BF1C9C3B940060AB49 /* PersonPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DEA5C21C9C3B940060AB49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B4DEA5C41C9C3B940060AB49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B4DEA5C71C9C3B940060AB49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4DEA5CA1C9C3B940060AB49 /* PersonPicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PersonPicker.xcdatamodel; sourceTree = "<group>"; };
 		B4DEA5CC1C9C3B940060AB49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4DEA5CF1C9C3B940060AB49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4DEA5D11C9C3B940060AB49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4DEA5D71C9C3BFE0060AB49 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		B4DEA5D91C9C3CE20060AB49 /* PersonDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonDetailViewController.swift; sourceTree = "<group>"; };
+		B4DEA5DB1C9C3DE10060AB49 /* PersonsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				B4DEA5C21C9C3B940060AB49 /* AppDelegate.swift */,
-				B4DEA5C41C9C3B940060AB49 /* ViewController.swift */,
 				B4DEA5C61C9C3B940060AB49 /* Main.storyboard */,
 				B4DEA5CC1C9C3B940060AB49 /* Assets.xcassets */,
 				B4DEA5CE1C9C3B940060AB49 /* LaunchScreen.storyboard */,
 				B4DEA5D11C9C3B940060AB49 /* Info.plist */,
 				B4DEA5C91C9C3B940060AB49 /* PersonPicker.xcdatamodeld */,
+				B4DEA5D71C9C3BFE0060AB49 /* Person.swift */,
+				B4DEA5D91C9C3CE20060AB49 /* PersonDetailViewController.swift */,
+				B4DEA5DB1C9C3DE10060AB49 /* PersonsTableViewController.swift */,
 			);
 			path = PersonPicker;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4DEA5C51C9C3B940060AB49 /* ViewController.swift in Sources */,
 				B4DEA5CB1C9C3B940060AB49 /* PersonPicker.xcdatamodeld in Sources */,
+				B4DEA5D81C9C3BFE0060AB49 /* Person.swift in Sources */,
+				B4DEA5DA1C9C3CE20060AB49 /* PersonDetailViewController.swift in Sources */,
 				B4DEA5C31C9C3B940060AB49 /* AppDelegate.swift in Sources */,
+				B4DEA5DC1C9C3DE10060AB49 /* PersonsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
