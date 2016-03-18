@@ -1,6 +1,8 @@
 # PersonPicker
 A sample project to learn git
 
+A wonderful app for color... 
+
 Bridgekeeper: Stop. Who would cross the Bridge of Death must answer me these questions three, ere the other side he see.
 Sir Lancelot: Ask me the questions, bridgekeeper. I am not afraid.
 Bridgekeeper: What... is your name?
