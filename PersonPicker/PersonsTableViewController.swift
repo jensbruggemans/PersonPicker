@@ -22,6 +22,7 @@ class PersonsTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
         persons.append(Person(name: "Jens", info: "iOS developer", favoriteColor: UIColor.greenColor()))
+        persons.append(Person(name: "Jack Black", info: "Actor", favoriteColor: UIColor.blackColor()))
     }
 
     override func didReceiveMemoryWarning() {
