@@ -24,7 +24,7 @@ class PersonsTableViewController: UITableViewController {
         persons.append(Person(name: "Jens Bruggemans", info: "iOS developer", favoriteColor: UIColor.purpleColor()))
         persons.append(Person(name: "Jack Black", info: "Actor", favoriteColor: UIColor.blackColor()))
         persons.append(Person(name: "Minute Maid", info: "Drankje", favoriteColor: UIColor.orangeColor()))
-        persons.append(Person(name: "Nadia", info: "Drankje", favoriteColor: UIColor.orangeColor()))
+        persons.append(Person(name: "Nadia", info: "Bonjour", favoriteColor: UIColor.orangeColor()))
         persons.append(Person(name: "Arthur", info: "uit gent", favoriteColor: UIColor.blueColor()))
         persons.append(Person(name: "Pdiddy", info: "from Belgium",favoriteColor: UIColor.greenColor()))
         persons.append(Person(name: "Paul", info: "Author", favoriteColor: UIColor.blueColor()))
