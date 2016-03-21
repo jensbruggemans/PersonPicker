@@ -31,7 +31,7 @@ class PersonsTableViewController: UITableViewController {
         persons.append(Person(name: "Kermit", info: "Een kikker", favoriteColor: UIColor.greenColor()))
 
     }
-    
+    //kitten
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
