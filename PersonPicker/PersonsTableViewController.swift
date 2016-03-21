@@ -28,6 +28,7 @@ class PersonsTableViewController: UITableViewController {
         persons.append(Person(name: "Arthur", info: "uit Gent", favoriteColor: UIColor.blueColor()))
         persons.append(Person(name: "Kristof", info: "uit Bar Mundo", favoriteColor: UIColor.orangeColor()))
         persons.append(Person(name: "Gerrit", info: "Heers", favoriteColor: UIColor.redColor()))
+        persons.append(Person(name: "Kermit", info: "Een kikker", favoriteColor: UIColor.greenColor()))
     }
 
     override func didReceiveMemoryWarning() {
