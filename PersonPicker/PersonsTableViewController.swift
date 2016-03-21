@@ -28,6 +28,7 @@ class PersonsTableViewController: UITableViewController {
         persons.append(Person(name: "Arthur", info: "uit gent", favoriteColor: UIColor.blueColor()))
         persons.append(Person(name: "Pdiddy", info: "from Belgium",favoriteColor: UIColor.greenColor()))
         persons.append(Person(name: "Paul", info: "Author", favoriteColor: UIColor.blueColor()))
+        persons.append(Person(name: "Kurt", info: "Leuven", favoriteColor: UIColor.blueColor()))
 
         persons.append(Person(name: "Kristof", info: "uit Bar Mundo", favoriteColor: UIColor.orangeColor()))
         persons.append(Person(name: "Gerrit", info: "Heers", favoriteColor: UIColor.redColor()))
@@ -35,7 +36,7 @@ class PersonsTableViewController: UITableViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // Dispose of any resources that can be recreated test.
     }
 
     // MARK: - Table view data source
