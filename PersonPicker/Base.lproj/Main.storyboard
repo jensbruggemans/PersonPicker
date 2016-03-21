@@ -25,11 +25,6 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="T1x-Iy-64L" id="k0f-LJ-j4T">
                                     <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kitten" translatesAutoresizingMaskIntoConstraints="NO" id="iNE-1e-Mlc">
-                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
-                                        </imageView>
-                                    </subviews>
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="mJK-OZ-u3y" kind="show" id="r3H-lp-Qfj"/>
@@ -103,7 +98,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="kitten" width="818" height="176"/>
         <image name="people" width="2716" height="1810"/>
     </resources>
 </document>
