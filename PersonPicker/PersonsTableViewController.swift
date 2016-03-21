@@ -24,48 +24,14 @@ class PersonsTableViewController: UITableViewController {
         persons.append(Person(name: "Jens Bruggemans", info: "iOS developer", favoriteColor: UIColor.purpleColor()))
         persons.append(Person(name: "Jack Black", info: "Actor", favoriteColor: UIColor.blackColor()))
         persons.append(Person(name: "Minute Maid", info: "Drankje", favoriteColor: UIColor.orangeColor()))
-        persons.append(Person(name: "Nadia", info: "Bonjour", favoriteColor: UIColor.orangeColor()))
-        persons.append(Person(name: "Arthur", info: "uit gent", favoriteColor: UIColor.blueColor()))
-        persons.append(Person(name: "Pdiddy", info: "from Belgium",favoriteColor: UIColor.greenColor()))
-        persons.append(Person(name: "Paul", info: "Author", favoriteColor: UIColor.blueColor()))
-        persons.append(Person(name: "Kurt", info: "Leuven", favoriteColor: UIColor.blueColor()))
-
+        persons.append(Person(name: "Nadia", info: "Drankje", favoriteColor: UIColor.orangeColor()))
+        persons.append(Person(name: "Arthur", info: "uit Gent", favoriteColor: UIColor.blueColor()))
         persons.append(Person(name: "Kristof", info: "uit Bar Mundo", favoriteColor: UIColor.orangeColor()))
         persons.append(Person(name: "Gerrit", info: "Heers", favoriteColor: UIColor.redColor()))
-        persons.append(Person(name: "Willem Massoels", info: " I can resist everything except temptation.", favoriteColor: UIColor.blueColor()))
-        
-        persons.append(Person(name: "Jules Vern", info: "Potototo.", favoriteColor: UIColor.purpleColor()))
+        persons.append(Person(name: "Kermit", info: "Een kikker", favoriteColor: UIColor.greenColor()))
+
     }
     
-    //dit is van willem massoels //commit
-    override func viewWillAppear(animated: Bool) {
-        animateTable()
-    }
-    
-    func animateTable() {
-        tableView.reloadData()
-        
-        let cells = tableView.visibleCells
-        let tableHeight: CGFloat = tableView.bounds.size.height
-        
-        for i in cells {
-            let cell: UITableViewCell = i as UITableViewCell
-            cell.transform = CGAffineTransformMakeTranslation(0, tableHeight)
-        }
-        
-        var index = 0
-        
-        for a in cells {
-            let cell: UITableViewCell = a as UITableViewCell
-            UIView.animateWithDuration(1.5, delay: 0.05 * Double(index), usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: [], animations: {
-                cell.transform = CGAffineTransformMakeTranslation(0, 0);
-                }, completion: nil)
-            
-            index += 1
-        }
-    }
-    
-    //have fun ya'll :p
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
