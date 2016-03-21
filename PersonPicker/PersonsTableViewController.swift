@@ -21,7 +21,7 @@ class PersonsTableViewController: UITableViewController {
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         
-        persons.append(Person(name: "Jens", info: "iOS developer", favoriteColor: UIColor.greenColor()))
+        persons.append(Person(name: "Jens", info: "iOS developer", favoriteColor: UIColor.purpleColor()))
         persons.append(Person(name: "Jack Black", info: "Actor", favoriteColor: UIColor.blackColor()))
         persons.append(Person(name: "Minute Maid", info: "Drankje", favoriteColor: UIColor.orangeColor()))
         persons.append(Person(name: "Nadia", info: "Drankje", favoriteColor: UIColor.orangeColor()))
