@@ -34,7 +34,7 @@ class PersonsTableViewController: UITableViewController {
         persons.append(Person(name: "Gerrit", info: "Heers", favoriteColor: UIColor.redColor()))
         persons.append(Person(name: "Willem Massoels", info: " I can resist everything except temptation.", favoriteColor: UIColor.blueColor()))
         
-        persons.append(Person(name: "Jules Vern", info: "Potototo.", favoriteColor: UIColor.purpleColor()))
+        persons.append(Person(name: "Jules Verne", info: "Potototo.", favoriteColor: UIColor.purpleColor()))
     }
     
     //dit is van willem massoels //commit
