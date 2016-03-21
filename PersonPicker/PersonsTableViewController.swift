@@ -32,7 +32,6 @@ class PersonsTableViewController: UITableViewController {
 
     }
     
-    //have fun ya'll :p
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
